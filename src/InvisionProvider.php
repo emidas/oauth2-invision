@@ -61,7 +61,7 @@ class InvisionProvider extends AbstractProvider
      */
     public function getResourceOwnerDetailsUrl(AccessToken $token): string
     {
-        return $this->baseUrl . '/api/core/me?' . http_build_query(['access_token' => $token->getToken()]);
+        return $this->baseUrl . '/api/index.php?/core/me&' . http_build_query(['access_token' => $token->getToken()]);
     }
 
     /**
