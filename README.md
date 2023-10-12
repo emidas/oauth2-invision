@@ -5,7 +5,7 @@
 
 ## 🚀 Download and installation
 
-This package is available on [Packagist](https://packagist.org/packages/romitou/oauth2-invision). You can install it directly via Composer with the command `composer req romitou/oauth2-invision`.
+This package is available on [Packagist](https://packagist.org/packages/emidas/oauth2-invision). You can install it directly via Composer with the command `composer req emidas/oauth2-invision`.
 
 ## 📖 Example
 
@@ -15,7 +15,7 @@ This package is available on [Packagist](https://packagist.org/packages/romitou/
 require __DIR__ . '/vendor/autoload.php';
 session_start();
 
-$invisionProvider = new Romitou\OAuth2\Client\InvisionProvider([
+$invisionProvider = new emidas\OAuth2\Client\InvisionProvider([
     'baseUrl' => '', // The base URL of your Invision Community
     'clientId' => '', // The client ID of your application
     'clientSecret' => '', // The client secret of your application
