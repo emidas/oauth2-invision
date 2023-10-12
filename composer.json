@@ -1,11 +1,11 @@
 {
-    "name": "romitou/oauth2-invision",
+    "name": "emidas/oauth2-invision",
     "description": "This package provides Invision's OAuth 2 and supports League's OAuth 2.0 client.",
     "license": "GPL-3.0-only",
     "authors": [
         {
-            "name": "Romitou",
-            "email": "romitou@protonmail.com"
+            "name": "emidas",
+            "email": "bowlingforblair@gmail.com"
         }
     ],
     "require": {
