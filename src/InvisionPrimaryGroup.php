@@ -1,6 +1,6 @@
 <?php
 
-namespace Romitou\OAuth2\Client;
+namespace emidas\OAuth2\Client;
 
 use League\OAuth2\Client\Tool\ArrayAccessorTrait;
 
